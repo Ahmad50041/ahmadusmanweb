@@ -77,6 +77,19 @@ nav ul li a:hover{
     text-align:center;
 }
 
+audio,
+video,
+iframe{
+    display:block;
+    margin:20px auto;
+    max-width:100%;
+}
+
+iframe{
+    border:3px solid #0d1b2a;
+    border-radius:8px;
+}
+
 footer{
     background:#0d1b2a;
     color:white;
